@@ -78,7 +78,7 @@ body {
   padding-right: 30px;
 }
 
-.sidebar .list-group .list-group-item:active,
+.sidebar .list-group .list-group-item.active,
 .sidebar .list-group .list-group-item:hover {
   background-color: #3f1e1e;
   color: #e0deeb;
