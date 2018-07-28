@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pizzashopapp',
     'bootstrap3',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
