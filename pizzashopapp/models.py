@@ -14,7 +14,7 @@ class PizzaShop(models.Model):
 
 
 class Pizza(models.Model):
-    pizzashop = models.ForeignKey(PizzaShop)
+    pizzashop = models.ForeignKey(PizzaShop, on_delete=models.CASCADE)
     name = models.CharField(max_length=30)
     short_description = models.CharField(max_length=100)
     image = models.ImageField(upload_to='pizza_images/', blank=False)
